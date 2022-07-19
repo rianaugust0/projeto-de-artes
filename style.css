@@ -1,0 +1,278 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #263238;
+}
+
+.cabecalho {
+    background-image: linear-gradient(to top, black,#263238);
+    display: flex;
+    padding: 20px;
+}
+
+.cabecalho-h1 {
+    flex: 80%;
+    margin-left: 10%;
+    color: rgb(146, 227, 169);
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+.navegacao {
+    padding: 30px 0px;
+    
+    flex: 100%;
+    margin-right: 10%;
+    text-align: left;
+    justify-items: center;
+    font-weight: bold;
+   
+}
+
+.navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 16px;
+    
+}
+
+.navegacao a:hover {
+    border-top: 3px solid rgb(146, 227, 169);
+}
+
+#conserve:hover {
+    background-color: rgb(146, 227, 169);
+    padding: 10px 10px; color: black;
+    border-radius: 5px;
+}
+
+
+.texto-img{
+  width: 700px;
+  padding: 5%;
+  margin-left: 10%;
+}
+
+.parte1 {
+    flex-flow: row wrap;
+    display: flex;
+    
+}
+
+.parte1 h2 {
+    display: flex;
+   color: white;
+   font-family: 'Oswald', sans-serif;
+   font-weight: bold;
+   font-size: 35px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.parte1 img {
+    width: 400px;
+}
+
+.parte1 h2 {
+    text-align: justify;
+    font-size: 40px;
+}
+
+.parte2 {
+   margin-left: 5%;
+   width: 700px;
+   text-align: center;
+   padding: 1% 5%;
+}
+
+.parte2 h2 {
+    padding-top: 20px;
+}
+
+
+
+.tipo-de-arte{
+ color: white;
+ justify-content: center;
+ display: flex;
+ margin-top: 20px;
+
+}
+
+.info1 h3, .info2 h3 {
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family:'Edu VIC WA NT Beginner', cursive;
+    background-color:  rgb(146, 227, 169);
+    padding: 15px;
+    color: black;
+    
+    
+}
+
+.info1, .info2 {
+    text-align: center;
+    border: 3px solid rgb(146, 227, 169);
+    width: 400px;
+    height: 400px;
+    color: white;
+}
+
+.info1 p, .info2 p {
+    line-height: 30px;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 90px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 90px 10px;
+    font-size: 17px;
+    height: 355px;
+    width: 398px;
+
+}
+
+.info1 {
+    margin-left: 10%;
+}
+
+.info2 {
+    margin-left: 2%;
+}
+
+.hidden {
+    width: 300px;
+    height: 300px;
+}
+
+ .hidden img, .hidden img {
+    display: none;
+}
+
+.info1:hover{
+   background-image: url(img/pexels-photo-1535775.jpeg);
+   background-size: cover;
+   background-position: center center;
+}
+
+.info2:hover {
+    background-image: url(img/pexels-photo-9775911.jpeg);
+    background-size: cover;
+    background-position: center top;
+}
+
+.info1 p:hover, .info2 p:hover {
+    display: none;
+    opacity: 1.0;
+}
+
+footer {
+    margin-top: 5%;
+    background-image: linear-gradient(to top, #263238,black);
+    border-top: 5px solid rgb(146, 227, 169);
+}
+
+footer h2 {
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#rian {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 1.2em;
+}
+
+#icones {
+    text-align: center; 
+}
+
+#icones img {
+    width: 50px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1672px) {
+    .navegacao {
+        display: flex;
+    }
+    
+}
+
+@media screen and (max-width: 1672px) {
+    .parte1 {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1089px) {
+    .navegacao {
+        display: none;
+    }
+
+    .cabecalho-h1 {
+        text-align: center;
+        padding-right: 13%;
+    }
+}
+
+@media screen and (max-width: 1017px) {
+         .info1 {
+            margin-left: 3%;
+         }
+}
+
+@media screen and (max-width: 883px) {
+    .info1 {
+        margin-left: 2%
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cabecalho {
+        width: 100%;
+    }
+
+    .footer {
+          width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 860px) {
+    .tipo-de-arte {
+        display: block;
+        margin-left: 20%;
+        margin-bottom: 0;
+    }
+
+    .texto-img h2 {
+        padding-top: 60px;
+      }
+}
+
